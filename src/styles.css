@@ -1,0 +1,74 @@
+/* Card styles */
+.card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 24px;
+  }
+  
+  /* Card content styles */
+  .card-content {
+    text-align: center;
+  }
+  
+  /* Button styles */
+  .button {
+    padding: 8px 16px;
+    background-color: #E5E7EB; /* light gray color */
+    border: none;
+    border-radius: 9999px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #D1D5DB;
+  }
+  
+  /* Slider container styles */
+  .slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 512px; /* equivalent to Tailwind's max-w-lg */
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  /* Slider button styles */
+  .slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .slider-button.left {
+    left: 0;
+    margin-left: -24px; /* approximates -ml-6 */
+  }
+  
+  .slider-button.right {
+    right: 0;
+    margin-right: -24px; /* approximates -mr-6 */
+  }
+  
+  /* Overall sliders container */
+  .sliders {
+    padding: 16px; /* equivalent to p-4 */
+  }
+  
+  .sliders > * + * {
+    margin-top: 40px; /* approximates space-y-10 (10 * 4px = 40px) */
+  }
+  
+  /* Title styles */
+  .title {
+    font-size: 1.5rem; /* approximates text-2xl */
+    font-weight: bold; /* approximates font-bold */
+    text-align: center;
+  }
+  
