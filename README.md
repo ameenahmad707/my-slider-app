@@ -47,10 +47,10 @@ Welcome to the **Vite React Slider Project**! This project demonstrates a respon
   Automatically switches slides at a configurable interval.
 
 - **📏 Consistent Layouts:**  
-  Custom CSS ensures that the slider maintains a fixed size, even with varying content lengths.
+  Custom CSS ensures the slider maintains a fixed size, even with varying content lengths.
 
 - **🔗 Easy Integration:**  
-  Seamlessly integrates with PHP/MySQLi backends, making it a great addition to both modern and legacy projects.
+  It seamlessly integrates with PHP/MySQLi backends, making it a great addition to modern and legacy projects.
 
 ---
 
@@ -58,9 +58,7 @@ Welcome to the **Vite React Slider Project**! This project demonstrates a respon
 
 Check out the live demo below:
 
-[![Vite React Slider Demo](https://webmtreal.infy.uk/react-slider/slider.html)
-
-*(Replace the demo image and URL with your actual demo details.)*
+[[Vite React Slider Demo](https://webmtreal.infy.uk/react-slider/slider.html)
 
 ---
 
